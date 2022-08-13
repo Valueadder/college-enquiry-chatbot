@@ -1,0 +1,245 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey, I am Sam \n How can I help you :-)",
+        "Hello, how are you?",
+        "Hello, thanks for visiting."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "Services",
+      "patterns": [
+        "Tell me about your services",
+        "I want to know something",
+        "I have an query"
+      ],
+      "responses": [
+        "Hi there,\n Welcome to RCET!\n If you need any assistance,\n I'm always here.\n Go ahead and write \n the number of any query.\n Which of the following user groups \n do you belong to?\n 1.Student's Section Enquiry. \n  2.Parent's Section Enquiry.\n  3.Visitor's Section Enquiry."
+      ]
+    },
+    {
+      "tag": "do",
+      "patterns": [
+        "What do you do?",
+        "What else can you do?"
+      ],
+      "responses": [
+        "I am made to give Information about RCET college.",
+        "I can help you know more about RCET"
+      ]
+    },
+    {
+      "tag": "1",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "STUDENT\n The following are frequently searched terms \n related to student. \n Please select one from the options below :\n 1.1 Curriculars\n 1.2  Extra-Curriculars\n 1.3  Administrative\n 1.4 Examination\n 1.5 Placements"
+      ]
+    },
+    {
+      "tag": "1.1",
+      "patterns": [
+        "1.1"
+      ],
+      "responses": [
+        " CURRICULAR,\n These are the top results:\n 1.1.1 Toodle \n 1.1.2 Academic Calendar \n 1.1.3 Syllabus"
+      ]
+    },
+    {
+      "tag": "1.1.1",
+      "patterns": [
+        "1.1.1"
+      ],
+      "responses": [
+        "Toodle \n The link to Toodle \n  https: //toodle.rungta.ac.in/'"
+      ]
+    },
+    {
+      "tag": "1.1.2",
+      "patterns": [
+        "1.1.2"
+      ],
+      "responses": [
+        " Academic Calender \n The link to Academic Calender \n 'https: //csvtu.ac.in/ew/academic-calendar/'"
+      ]
+    },
+    {
+      "tag": "1.1.3",
+      "patterns": [
+        "1.1.3"
+      ],
+      "responses": [
+        "Syllabus \n The link to Syllabus \n ' https: //csvtu.ac.in/ew/\nprograms-and-schemes/' "
+      ]
+    },
+    {
+      "tag": "1.2",
+      "patterns": [
+        "1.2",
+        "3.3"
+      ],
+      "responses": [
+        "EXTRA-CURRICULAR \n These are the top results: \n Events "
+      ]
+    },
+    {
+      "tag": "Events",
+      "patterns": [
+        "Events"
+      ],
+      "responses": [
+        "Events \n Here are some events: \n i.Vyom(Annual Day)- \n https://www.rungta.ac.in/vyom.php \n ii.Voyager(Industrial Tour)- \n https://www.rungta.ac.in/voyager.php \n iii.Alvida(Farewell)- \n https://www.rungta.ac.in/alvida.php \n iv.Placementnaama- \n  https://www.rungta.ac.in/sachh-hue-sapne.php "
+      ]
+    },
+    {
+      "tag": "1.3",
+      "patterns": [
+        "1.3"
+      ],
+      "responses": [
+        "ADMINISTRATIVE \n These are the top results: \n 1.3.1 Students Portal \n 1.3.2 Notices"
+      ]
+    },
+    {
+      "tag": "1.3.1",
+      "patterns": [
+        "1.3.1"
+      ],
+      "responses": [
+        "Students Portal \n The link to student portal is \n 'https://www.rungta.ac.in/rungta-group-contact.php'"
+      ]
+    },
+    {
+      "tag": "1.3.2",
+      "patterns": [
+        "1.3.2"
+      ],
+      "responses": [
+        "Here you can get the notices about academics \n 'https://csvtu.ac.in/ew/notices/'"
+      ]
+    },
+    {
+      "tag": "1.4",
+      "patterns": [
+        "1.4"
+      ],
+      "responses": [
+        "EXAMINATION \n These are the top results: \n 1.4.1 Examination form \n 1.4.2 Exam Time table \n 1.4.3 Exam result "
+      ]
+    },
+    {
+      "tag": "1.4.1",
+      "patterns": [
+        "1.4.1",
+        "1.4.3"
+      ],
+      "responses": [
+        "Here you can get your exam form and result \n 'https://csvtu.digivarsity.online/CSVTU/index.aspx#!'"
+      ]
+    },
+    {
+      "tag": "1.4.2",
+      "patterns": [
+        "1.4.2"
+      ],
+      "responses": [
+        "Click on this link to get your exam time table \n 'https://csvtu.ac.in/ew/examination-time-table/'  "
+      ]
+    },
+    {
+      "tag": "1.5",
+      "patterns": [
+        "1.5",
+        "2.3"
+      ],
+      "responses": [
+        "PLACED WITH INDIA'S AND THE WORLD'S BEST \n Highest Placement Statistics in Central India \n Click here to know more \n 'https://www.rungta.ac.in/placement.php' "
+      ]
+    },
+    {
+      "tag": "2",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "PARENTS \n The following are frequently searched terms related to Parents.\n Please select one from the options below : \n 2.1 About Us \n 2.2 Fee Payment \n 2.3 Placements "
+      ]
+    },
+    {
+      "tag": "2.1",
+      "patterns": [
+        "2.1",
+        "4.1",
+        "3.1"
+      ],
+      "responses": [
+        "Click here to know more about us \n 'https://www.rungta.ac.in/the-group.php' "
+      ]
+    },
+    {
+      "tag": "2.2",
+      "patterns": [
+        "2.2"
+      ],
+      "responses": [
+        "Here you can get all details about \n fee payment and payment portal \n 'https://www.rungta.ac.in/fees.php'"
+      ]
+    },
+    {
+      "tag": "3",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "VISITORS \n The following are frequently searched \n terms related to visitors.\n Please select one \n from the options below:\n 3.1 About Us \n 3.2 Programs We Offer \n 3.3 Extra-Curricular"
+      ]
+    },
+    {
+      "tag": "3.2",
+      "patterns": [
+        "3.2"
+      ],
+      "responses": [
+        "Click here to know \n about courses that we offer \n 'https://www.rungta.ac.in/courses.php'"
+      ]
+    }
+  ]
+}

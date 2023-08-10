@@ -48,7 +48,18 @@
       "patterns": [
         "Tell me about your services",
         "I want to know something",
-        "I have an query"
+        "I have an query",
+        "Fees",
+        "academics",
+        "time table",
+        "courses",
+        "examination",
+        "Placement",
+        "syllabus",
+        "Notices",
+        "result",
+        "exam form",
+        "events"
       ],
       "responses": [
         "Hi there,\n Welcome to RCET!\n If you need any assistance,\n I'm always here.\n Go ahead and write \n the number of any query.\n Which of the following user groups \n do you belong to?\n 1.Student's Section Enquiry. \n  2.Parent's Section Enquiry.\n  3.Visitor's Section Enquiry."
@@ -71,7 +82,7 @@
         "1"
       ],
       "responses": [
-        "STUDENT\n The following are frequently searched terms \n related to student. \n Please select one from the options below :\n 1.1 Curriculars\n 1.2  Extra-Curriculars\n 1.3  Administrative\n 1.4 Examination\n 1.5 Placements"
+        "STUDENT\n The following are frequently searched terms \n related to student. \n Please select one from the options below :\n 1.1 Curriculars\n 1.2  Extra-Curriculars\n 1.3  Administrative\n 1.4 Examination\n 1.5 Placements \n 1.6 Fee Payment"
       ]
     },
     {
@@ -89,7 +100,7 @@
         "1.1.1"
       ],
       "responses": [
-        "Toodle \n The link to Toodle \n  https://toodle.rungta.ac.in/'"
+        "The link to Toodle \n  <a href=https://toodle.rungta.ac.in/>Toodle</a>"
       ]
     },
     {
@@ -98,7 +109,7 @@
         "1.1.2"
       ],
       "responses": [
-        " Academic Calender \n The link to Academic Calender \n 'https://csvtu.ac.in/ew/\nacademic-calendar/'"
+        "The link to Academic Calender is\n <a href=https://csvtu.ac.in/ew/academic-calendar/>Academic calender</a>"
       ]
     },
     {
@@ -107,7 +118,7 @@
         "1.1.3"
       ],
       "responses": [
-        "Syllabus \n The link to Syllabus \n 'https://csvtu.ac.in/ew/\nprograms-and-schemes/' "
+        "Syllabus \n The link to Syllabus \n <a href=https://csvtu.ac.in/ew/programs-and-schemes/>Syllabus</a> "
       ]
     },
     {
@@ -126,7 +137,7 @@
         "Events"
       ],
       "responses": [
-        "Events \n Here are some events: \n i.Vyom(Annual Day)- \n https://www.rungta.ac.in/\nvyom.php \n ii.Voyager(Industrial Tour)- \n https://www.rungta.ac.in/\nvoyager.php \n iii.Alvida(Farewell)- \n https://www.rungta.ac.in/\nalvida.php \n iv.Placementnaama- \n  https://www.rungta.ac.in/\nsachh-hue-sapne.php "
+        "Events \n Here are some events: \n i.Vyom(Annual Day)- \n <a href=https://www.rungta.ac.in/vyom.php>Vyom</a> \n ii.Voyager(Industrial Tour)- \n <a href=https://www.rungta.ac.in/voyager.php>Voyager</a> \n iii.Alvida(Farewell)- \n <a href=https://www.rungta.ac.in/alvida.php>Alvida</a> \n iv.Placementnaama- \n  <a href=https://www.rungta.ac.in/sachh-hue-sapne.php>Placementnaama</a> "
       ]
     },
     {
@@ -144,7 +155,7 @@
         "1.3.1"
       ],
       "responses": [
-        "Students Portal \n The link to student portal is \n 'https://www.rungta.ac.in/\nrungta-group-contact.php'"
+        "The link to student portal is \n <a href=https://www.rungta.ac.in/rungta-group-contact.php>Student Portal</a>"
       ]
     },
     {
@@ -153,7 +164,7 @@
         "1.3.2"
       ],
       "responses": [
-        "Here you can get the \n notices about academics \n 'https://csvtu.ac.in/ew/notices/'"
+        "Here you can get the \n notices about academics \n <a href=https://csvtu.ac.in/ew/notices/>Notices</a>"
       ]
     },
     {
@@ -162,7 +173,7 @@
         "1.4"
       ],
       "responses": [
-        "EXAMINATION \n These are the top results: \n 1.4.1 Examination form \n 1.4.2 Exam Time table \n 1.4.3 Exam result "
+        "These are the top results: \n 1.4.1 Examination form \n 1.4.2 Exam Time table \n 1.4.3 Exam result "
       ]
     },
     {
@@ -172,7 +183,7 @@
         "1.4.3"
       ],
       "responses": [
-        "Here you can get \n your exam form and result \n 'https://csvtu.digivarsity.online\n/CSVTU/index.aspx#!'"
+        "Here you can get \n your exam form and result \n <a href=https://csvtu.digivarsity.online/CSVTU/index.aspx#!>Digivarsity Portal</a>"
       ]
     },
     {
@@ -181,7 +192,7 @@
         "1.4.2"
       ],
       "responses": [
-        "Click on this link to \n get your exam time table \n 'https://csvtu.ac.in/ew/\nexamination-time-table/'  "
+        "Click on this link to \n get your exam time table \n <a href=https://csvtu.ac.in/ew/examination-time-table/>Time table</a>  "
       ]
     },
     {
@@ -191,7 +202,7 @@
         "2.3"
       ],
       "responses": [
-        "PLACED WITH INDIA'S AND THE WORLD'S BEST \n Highest Placement Statistics\n in Central India \n Click here to know more \n 'https://www.rungta.ac.in/\nplacement.php' "
+        "PLACED WITH INDIA'S AND THE WORLD'S BEST \n Highest Placement Statistics\n in Central India \n Click here to know more \n <a href=https://www.rungta.ac.in/placement.php>Placement Stats</a> "
       ]
     },
     {
@@ -200,7 +211,7 @@
         "2"
       ],
       "responses": [
-        "PARENTS \n The following are frequently\n searched terms related to Parents.\n Please select one\n from the options below : \n 2.1 About Us \n 2.2 Fee Payment \n 2.3 Placements "
+        "The following are frequently\n searched terms related to Parents.\n Please select one\n from the options below : \n 2.1 About Us \n 2.2 Fee Payment \n 2.3 Placements "
       ]
     },
     {
@@ -211,16 +222,17 @@
         "3.1"
       ],
       "responses": [
-        "Click here to \n know more about us \n 'https://www.rungta.ac.in/\nthe-group.php' "
+        "Click here to \n know more about us \n <a href=https://www.rungta.ac.in/the-group.php>About Us</a> "
       ]
     },
     {
       "tag": "2.2",
       "patterns": [
-        "2.2"
+        "2.2",
+        "1.6"
       ],
       "responses": [
-        "Here you can get all details about \n fee payment and payment portal \n 'https://www.rungta.ac.in/fees.php'"
+        "Here you can get all details about \n fee payment and payment portal \n <a href=https://www.rungta.ac.in/fees.php>Fee Payment</a>"
       ]
     },
     {
@@ -229,7 +241,7 @@
         "3"
       ],
       "responses": [
-        "VISITORS \n The following are frequently searched \n terms related to visitors.\n Please select one \n from the options below:\n 3.1 About Us \n 3.2 Programs We Offer \n 3.3 Extra-Curricular"
+        "The following are frequently searched \n terms related to visitors.\n Please select one \n from the options below:\n 3.1 About Us \n 3.2 Programs We Offer \n 3.3 Extra-Curricular"
       ]
     },
     {
@@ -238,7 +250,7 @@
         "3.2"
       ],
       "responses": [
-        "Click here to know \n about courses that we offer \n 'https://www.rungta.ac.in/\ncourses.php'"
+        "Click here to know \n about courses that we offer \n <a href=https://www.rungta.ac.in/courses.php>Courses</a>"
       ]
     }
   ]
